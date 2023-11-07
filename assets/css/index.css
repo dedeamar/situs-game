@@ -1,0 +1,510 @@
+/* pengaturan body*/
+/* pengaturan body*/
+body {
+	background-color 	: rgb(19, 48, 71);
+	text-align			: center;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode, Geneva, Verdana, sans-serif';
+	font-size			: 13px;
+}
+
+
+
+/* pengaturan layout utama */
+#layout {
+	background			:  #1e9fca;
+	width 				: 980px;
+	margin				: auto;
+	text-align 			: left;
+	padding 			: 2px;
+}
+#header{
+	width 				: 100%;
+	height 				: 300px;
+	background-color	: #1e9fca;
+	position 			: relative;
+}
+.header {
+	width				: 100%;
+	height				: 300px;
+}
+
+/* next */
+#next {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+/*pengaturan menu*/
+#menu{
+	width				: 100%;
+	height				: 40px;
+	background-color	: rgb(29, 146, 201);
+	position			: relative;
+}
+/*pengaturan menu*/
+#menu ul {
+	margin 				: 0;
+	padding 			: 0;
+	list-style 			: none;
+	
+}
+
+#menu ul li {
+	float 				: left;
+}
+
+#menu ul li a {
+	float 				: left;
+	color 				: white;
+	padding 			: 12px 20px;
+	text-decoration 	: none;
+	background 			: rgb(25, 127, 173);
+	border-left 		: 1px solid #3C4042;
+	border-right 		: 1px solid #3C4042;
+	text-shadow 		: 0 -1px 1px rgba(0, 0, 0, 0.6);
+}
+#menu ul li a:hover {
+	color 				: white;
+	background 			: #080808;
+}
+
+
+/*pengaturan runingtext*/
+#runningtext{
+	width 				: 100%;
+	height				: 25px;
+	padding-top  		: 7px;
+	margin				: 5px 0 5px 0;
+	background-color 	: black;
+	color				: white;
+	position			: relative;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+/*pengaturan isi*/
+#isi{
+	padding 			: 5px;
+	width				: 100%;
+	height				: auto;
+	background-color 	: rgb(99, 182, 209);
+	position 			: relative;
+	margin-top			: 5px;
+	
+}
+/*pengaturan posting*/
+.isiposting{
+	background-color	: #9ca1a2;
+	width				: 100%;
+	height				: 170px;
+	margin-bottom		: 5px;
+	padding				: 4px;
+	box-shadow: 3px 3px 3px  black;
+}
+/*pengaturan gambar yang di halaman depan*/
+.gambardepan{
+	float				: left;
+	height				: 160px;
+	width 				: 190px;
+	margin-right		: 5px;
+	margin-top 			: 3px;
+	padding 			: 1px;
+	border 				: 1px solid #dddddd;
+}
+/*pengaturan heading2 "Judul" */
+.isiposting h2 {
+	font-size			: 20px;
+	font-weight 		: bold;
+	color 				: #ffffff;
+	margin-top			: 4px;
+	margin-bottom		: 3px;
+}
+/*pengaturan anchor atau link yang ada di isiposting */
+.isiposting a{
+	text-decoration		: none;
+}
+.isiposting a:hover{
+	color				: rgb(8, 224, 37);
+}
+
+
+#sidebar{
+	padding 			: 5px;
+	width				: 27%;
+	background-color	: #f87f1b;
+	position 			: relative;
+	float				: right;
+	/*memberikan garis putus-putus*/
+	border-style		: dotted;
+	border-width		: 1px;
+}
+
+/*pengaturan widget sidebar*/
+.widged{
+	width				: 100%;
+	background 			: #ffffff;
+	border-top 			: 1px solid #DFDFDF;
+	border-bottom		: 1px solid #DFDFDF;
+	border-right  		: 1px solid #DFDFDF;
+	border-left			: 1px solid #DFDFDF;
+	font-size			: 100%;
+	margin 				: 0px 0px 5px 0px;
+	box-shadow: 2px 2px 2px black;
+}
+/*pengaturan ukuran iklan dg gambar pada widged*/
+.gambariklan{
+	width 				: 99%;
+	height				: 150px;
+}
+/*pengaturan huruf judul widged*/
+.judulwidged{
+	background 			: #d74006;
+	padding 			: 5px 10px 5px 10px;
+	margin 				: 0px 0px 0px 0px;
+	text-align			: center;
+	color				: white;
+	font-weight			: bold;
+	font-size			: 15px;
+	margin-bottom		: 5px;
+}
+.widged ul {
+	margin 				: 0px 0px 0px 0px;
+	padding 			: 0px 0px 0px 0px;
+	list-style-type		: none;
+}
+.widged li {
+	padding 			: 0px 0px 0px 0px; 		/*top right bottom left*/
+	background-position	: left;
+	background-repeat	: no-repeat;
+	color				: #333333;
+}
+.widged li a {
+	color 				: #333333;
+	border-bottom		: 1px dotted #cccccc;
+	text-decoration		: none;
+	display  			: block;
+	margin-bottom		: 5px;
+	padding 			: 4px 5px 3px 10px;
+}
+.widged li a:hover {
+	color 				: blue;
+}
+
+#footer{
+	width 				: 100%;
+	height				: 50px;
+	margin-top			: 5px;
+	padding-top			: 30;
+	background-color	: #49494e;
+	color				: white;
+	font-size			: 12pt;
+	text-align			: center;
+	position			: relative;
+	clear				: both;
+}
+
+
+.isipostingall {
+	background-color	: #bc9d64;
+	width				: 100%;
+	height				: auto;
+	margin-bottom		: 5px;
+	padding				: 5px;
+}
+.isipostingall h2{
+	text-align			: center;
+	color				: maroon;
+	font-size			: 20px;
+	font-weight 		: bold;
+}
+.gambarposting1 {
+	width				: 400px;
+	height				: 400px;
+	float				: right;
+	margin				: 10px 5px 5px 10px;
+	box-shadow: 0px 0px 2px 2px #f9f9f9;
+}
+
+
+.profil {
+	width				: 200px;
+	height				: 250px;
+	display				: block;
+	float				: right;
+	padding-right		: 5px;
+}
+.profil h2{
+	text-align			: center;
+	color				: maroon;
+	font-size			: 20px;
+	font-weight 		: bold;
+}
+
+
+#kontak {
+	padding				: 5px;
+	width				: 99%;
+	height				: auto;
+	background-color	: white;
+	position			: relative;
+	margin				: auto;
+	font-size			: 20px;
+}
+.kontak {
+	background-color	: none;
+	width				: 100%;
+	height				: auto;
+	margin-bottom		: 5px;
+}
+.kontak h2 {
+	background-color	: maroon;
+	height				: 40px;
+	color				: white;
+	text-align			: center;
+	padding-top			: 4px;
+	padding-bottom 		: 4px;
+}
+.tablekontak {
+	color				: maroon;
+	padding-left		: 20px;	
+}
+.kolom1 {
+	width				: 20%x;	
+}
+.kolom2 {
+	width				: 80%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	list-style: none;
+  }
+  body {
+	min-height: 100vh;
+  }
+  .sidebar {
+	position: fixed;
+	background-color: rgb(50, 159, 202);
+	width: 20vw;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+  }
+  .brand {
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 2px solid whitesmoke ;
+	margin-bottom: 10px;
+	color: aliceblue;
+	cursor: pointer;
+  }
+  .brand i {
+	font-size: 20px
+  }
+  .sidebar ul li {
+	font-size: 20px;
+	padding: 10px 40px;
+	color: white;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+  }
+  .sidebar ul li:hover {
+	background-color: cadetblue;
+	color: limegreen;
+  }
+  .container {
+	position: absolute;
+	right: 0;
+	width: 80vw;
+	height: 100vh;
+  }
+  
+ 
+  .nav {
+	width: 100%;
+	display: flex;
+	align-items: center;
+  }
+  .search {
+	flex: 5;
+	display: flex;
+  justify-content: center;
+  
+  }
+  .search input{
+	border: none;
+	background-color: white;
+	padding: 10px;
+	height: 50%;
+  }
+  
+  .search button {
+	width: 40px; ;
+	height: 40px;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+  }
+  .user{
+	flex: 4;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  .user i {
+	width: 40px; ;
+	height: 40px;
+	font-size: 20px;
+	padding: 5px;
+	background-color: white;
+	border-radius: 50%;
+	color: #191919;
+	margin: 5px 5px;
+  }
+  .content {
+	position: relative;
+	margin-top: 10vh;
+	min-height: 90vh;
+  flex-wrap: wrap;
+  }
+  
+  .container {
+	display: flex;
+  justify-content: flex-start;
+	
+  
+  }
+  
+  .card {
+	background-color: rgb(208, 221, 236);
+	border-radius: 2px;
+	margin: 1em;
+	padding: 1em;
+	width: 550px;
+	display:flex;
+	height: 200px;
+	flex-wrap: wrap;
+	box-shadow:  4px 4px 4px;
+	text-align: right;
+   
+  }
+  .card-image {
+	width: 50%;
+	border-radius: 2px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: right;
+  }
+  
+  .card-content {
+	margin: 10px;
+	padding:1em;
+	width: 100%;
+	text-align: right;
+  }
+  .card-title, .card-text {
+	text-align: right;
+  }
+  .btn {
+	color: rgb(255, 255, 255);
+	background-color: rgb(3, 153, 240);
+	size: 10px;
+	text-align: right;
+  }
+  .cards {
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: right;
+  }
+  .p {
+	text-align: right;
+  }
+   
+  h1 {
+	text-align: center;
+	font-size: 2em;
+	color: black;
+  }
+  .card2 {
+	text-align: center;
+	text-align: left;
+  }
+   h5 {
+	text-align: center;
+   }
+   p {
+	text-align: center;
+   }
+   h6 {
+	text-align: right;
+   } 
+
+
+   form {
+	width: 500px;
+	
+	
+
+   }
+   .search {
+	padding: 5px 10px;
+	background-color: rgb(215, 223, 228);
+	border: 2px solid rgb(20, 149, 185);
+	box-shadow: 0px 3px 3px #080808;
+	
+   }
+.button {
+
+	padding: 5px 10px;
+	border: 2px solid;
+}
+
+.button:hover {
+	background-color: rgb(12, 0, 242);
+	color: #1e9fca;
+}
+#isi{
+	padding 			: 5px;
+	width				: 100%;
+	height				: auto;
+	background-color 	: rgb(44, 147, 216);
+	position 			: relative;
+	margin-top			: 5px;
+
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 100px;
+    align-items: center;
+    grid-gap: 30px;
+    text-align: center;
+}
+img{
+    object-fit: cover;
+}
+.grid > article{
+    box-shadow:15px 5px 5px 0px black;
+    border-radius: 20px;
+    text-align: center;
+    background-color: aqua;
+    width: 300px;
+    transition: transform;
+}
+.grid > article img{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
